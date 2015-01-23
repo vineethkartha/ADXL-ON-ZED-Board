@@ -1,0 +1,7 @@
+PROOT:=/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2
+INSTANCE:=linux/device-tree
+-include /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/Makefile.export
+-include /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/device-tree/Makefile.export
+CONFIGFILE:=/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/subsystems/linux/config
+dir_device_tree_y=/opt/PetaLinux/petalinux-v2014.2-final/components/device-tree/device-tree-generator
+

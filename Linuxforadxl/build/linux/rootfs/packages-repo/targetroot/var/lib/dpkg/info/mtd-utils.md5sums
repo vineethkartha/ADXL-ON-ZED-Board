@@ -1,0 +1,14 @@
+86f64f6eccaa6b95e0da99e5c3e5a490  usr/sbin/nandwrite
+00f3e4c4aa9c900c01b0ac676c57bb96  usr/sbin/mtd_debug
+81adb85c334083e1a103b43433dd1dc2  usr/sbin/flash_lock
+a23e33542340ea348988f41a7ecd5412  usr/sbin/flash_eraseall
+b25c84da0b5abb0633e273eca272b635  usr/sbin/flash_otp_info
+9d529200c18706d9a9a8689a63bdaf00  usr/sbin/flash_erase
+491be8cb2d315070d6570b03e8c897df  usr/sbin/flash_otp_lock
+933bb21d44b9b0eb5f425dd5cd6007e9  usr/sbin/flash_unlock
+a89f6d4400315d70818e75c1d08b334c  usr/sbin/flashcp
+1cde12fa6e72b2ff5e56383233792a97  usr/sbin/flash_otp_dump
+f27aa90080780e5ac7d1d06c42cf12d4  usr/sbin/nandtest
+bfb5af567e19c5f213cf24c26896903a  usr/sbin/mtdinfo
+fad32953e52e6272ef42172789cc4b58  usr/sbin/flash_otp_write
+e4987dc3c3c91aef6a2e469a15244ffe  usr/sbin/nanddump

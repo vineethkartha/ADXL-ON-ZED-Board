@@ -1,0 +1,90 @@
+#-- DISCLAIMER OF LIABILITY
+#--
+#-- This file contains proprietary and confidential information of
+#-- Xilinx, Inc. ("Xilinx"), that is distributed under a license
+#-- from Xilinx, and may be used, copied and/or disclosed only
+#-- pursuant to the terms of a valid license agreement with Xilinx.
+#--
+#-- XILINX IS PROVIDING THIS DESIGN, CODE, OR INFORMATION
+#-- ("MATERIALS") "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER
+#-- EXPRESSED, IMPLIED, OR STATUTORY, INCLUDING WITHOUT
+#-- LIMITATION, ANY WARRANTY WITH RESPECT TO NONINFRINGEMENT,
+#-- MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE. Xilinx
+#-- does not warrant that functions included in the Materials will
+#-- meet the requirements of Licensee, or that the operation of the
+#-- Materials will be uninterrupted or error-free, or that defects
+#-- in the Materials will be corrected. Furthermore, Xilinx does
+#-- not warrant or make any representations regarding use, or the
+#-- results of the use, of the Materials in terms of correctness,
+#-- accuracy, reliability or otherwise.
+#--
+#-- Xilinx products are not designed or intended to be fail-safe,
+#-- or for use in any application requiring fail-safe performance,
+#-- such as life-support or safety devices or systems, Class III
+#-- medical devices, nuclear facilities, applications related to
+#-- the deployment of airbags, or any other applications that could
+#-- lead to death, personal injury or severe property or
+#-- environmental damage (individually and collectively, "critical
+#-- applications"). Customer assumes the sole risk and liability
+#-- of any use of Xilinx products in critical applications,
+#-- subject only to applicable laws and regulations governing
+#-- limitations on product liability.
+#--
+#-- Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+#--
+#-- This disclaimer and copyright notice must be retained as part
+#-- of this file at all times.
+#--
+
+BEGIN ZedBoard
+
+OPTION VLNV = ZedBoard.org|bsb_lib.boards|ZedBoard|C
+
+## OPTION -> spirit:parameter
+OPTION FAMILY = zynq
+OPTION DEVICE = xc7z020
+OPTION PACKAGE = clg484
+OPTION SPEED_GRADE =  -1
+OPTION JTAG_POSITION = 2
+OPTION SPEC_URL = www.zedboard.org
+OPTION CONTACT_INFO_URL = http://www.zedboard.org/forum
+OPTION VendorName = Avnet
+OPTION DisplayName = ZedBoard Zynq Evaluation and Development Kit
+OPTION LONG_DESC = 'The ZedBoard utilizes a Xilinx Zynq-7000 EPP XC7Z020-1CLG484 device. The board is a community-based development board, supported through the www.zedboard.org website.  The ZedBoard contains a Zynq-based processing system that includes Micron 512 MB DDR3, Spansion 256 Mb Quad-SPI Flash, Marvel 10/100/100  Ethernet PHY, TI USB OTG PHY, Cypress USB-UART bridge, 4 GB SD Card, Maxim power circuitry, 1 LED, and 2 push buttons.  The PL has 8 LEDs, 8 slide switches, 5 push buttons, and several other peripherals not supported in BSB.'
+
+## IO_INTERFACE -> spirit:busInterface
+IO_INTERFACE IO_IF = clock_0, IO_TYPE = xilinx.com|bsb_lib.rtl_busdefs|clock|1.0
+IO_INTERFACE IO_IF = reset_0, IO_TYPE = xilinx.com|bsb_lib.rtl_busdefs|reset|1.0
+IO_INTERFACE IO_IF = BTNs_5Bits, IO_TYPE = xilinx.com|bsb_lib.rtl_busdefs|gpio|1.0
+IO_INTERFACE IO_IF = SWs_8Bits, IO_TYPE = xilinx.com|bsb_lib.rtl_busdefs|gpio|1.0
+IO_INTERFACE IO_IF = LEDs_8Bits, IO_TYPE = xilinx.com|bsb_lib.rtl_busdefs|gpio|1.0
+
+## PARAMETER -> spirit:modelParameter
+PARAMETER refclk_frequency_0 = 100000000, DT = INTEGER, RANGE = (100000000:100000000), ASSIGNMENT=CONSTANT, IO_IF = clock_0, IO_IS = frequency
+
+PARAMETER reset_polarity = 1, DT = STRING, ASSIGNMENT=CONSTANT, IO_IF = reset_0, IO_IS = RST_POLARITY
+
+PARAMETER BTNs_5Bits_GPIO_WIDTH_ID = 5, DT = STRING, ASSIGNMENT=CONSTANT, IO_IF = BTNs_5Bits, IO_IS = C_GPIO_WIDTH
+PARAMETER BTNs_5Bits_ALL_INPUTS_ID = 1, DT = STRING, ASSIGNMENT=CONSTANT, IO_IF = BTNs_5Bits, IO_IS = C_ALL_INPUTS
+PARAMETER BTNs_5Bits_IS_DUAL_ID = 0, DT = STRING, ASSIGNMENT=CONSTANT, IO_IF = BTNs_5Bits, IO_IS = C_IS_DUAL
+
+PARAMETER SWs_8Bits_GPIO_WIDTH_ID = 8, DT = STRING, ASSIGNMENT=CONSTANT, IO_IF = SWs_8Bits, IO_IS = C_GPIO_WIDTH
+PARAMETER SWs_8Bits_ALL_INPUTS_ID = 1, DT = STRING, ASSIGNMENT=CONSTANT, IO_IF = SWs_8Bits, IO_IS = C_ALL_INPUTS
+PARAMETER SWs_8Bits_IS_DUAL_ID = 0, DT = STRING, ASSIGNMENT=CONSTANT, IO_IF = SWs_8Bits, IO_IS = C_IS_DUAL
+
+PARAMETER LEDs_8Bits_GPIO_WIDTH_ID = 8, DT = STRING, ASSIGNMENT=CONSTANT, IO_IF = LEDs_8Bits, IO_IS = C_GPIO_WIDTH
+PARAMETER LEDs_8Bits_ALL_INPUTS_ID = 0, DT = STRING, ASSIGNMENT=CONSTANT, IO_IF = LEDs_8Bits, IO_IS = C_ALL_INPUTS
+PARAMETER LEDs_8Bits_IS_DUAL_ID = 0, DT = STRING, ASSIGNMENT=CONSTANT, IO_IF = LEDs_8Bits, IO_IS = C_IS_DUAL
+
+## Ports
+PORT CLK_P = "", DIR = I, IO_IF = clock_0, IO_IS = CLK, SIGIS=CLK, ASSIGNMENT=REQUIRE
+PORT CLK_N = "", DIR = I, IO_IF = clock_0, IO_IS = CLK, SIGIS=CLK, ASSIGNMENT=REQUIRE
+PORT RESET = "", DIR = I, IO_IF = reset_0, IO_IS = RESET, SIGIS=RST, ASSIGNMENT=REQUIRE
+
+
+PORT BTNs_5Bits_TRI_IO = "", DIR = IO, VEC = [4:0], IO_IF = BTNs_5Bits, IO_IS = TRI_IO
+
+PORT SWs_8Bits_TRI_IO = "", DIR = IO, VEC = [7:0], IO_IF = SWs_8Bits, IO_IS = TRI_IO
+
+PORT LEDs_8Bits_TRI_IO = "", DIR = O, VEC = [7:0], IO_IF = LEDs_8Bits, IO_IS = TRI_O
+END

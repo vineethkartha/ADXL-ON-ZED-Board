@@ -1,0 +1,13 @@
+zynq_qspi.c:423:12:zynq_qspi_setup_transfer	16	static
+zynq_qspi.c:337:13:zynq_qspi_copy_write_data	16	static
+zynq_qspi.c:482:13:zynq_qspi_fill_tx_fifo	40	static
+zynq_qspi.c:292:13:zynq_qspi_copy_read_data	24	static
+zynq_qspi.c:832:5:spi_cs_is_valid	0	static
+zynq_qspi.c:838:6:spi_cs_activate	0	static
+zynq_qspi.c:843:6:spi_cs_deactivate	0	static
+zynq_qspi.c:848:6:spi_init	0	static
+zynq_qspi.c:853:19:spi_setup_slave	24	static
+zynq_qspi.c:906:6:spi_free_slave	0	static
+zynq_qspi.c:916:5:spi_claim_bus	0	static
+zynq_qspi.c:922:6:spi_release_bus	0	static
+zynq_qspi.c:927:5:spi_xfer	64	static

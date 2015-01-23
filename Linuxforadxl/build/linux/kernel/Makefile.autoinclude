@@ -1,0 +1,7 @@
+PROOT:=/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2
+INSTANCE:=linux/kernel
+-include /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/Makefile.export
+-include /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/kernel/Makefile.export
+CONFIGFILE:=/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/subsystems/linux/configs/kernel/config
+dir_linux_kernel_y=/opt/PetaLinux/petalinux-v2014.2-final/components/linux-kernel/xlnx-3.14
+

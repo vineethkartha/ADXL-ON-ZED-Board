@@ -1,0 +1,16 @@
+
+Start-Date: 2014-11-21  20:32:19
+Commandline: apt-get install busybox gdbserver init-ifupdown busybox-udhcpc base-files update-alternatives-opkg initscripts-functions busybox-inetd libgcc-s1 sysvinit-pidof sysvinit busybox-mdev netbase libc6 modutils-initscripts update-rc.d mtd-utils sysvinit-inittab initscripts base-passwd --force-yes --allow-unauthenticated
+Install: base-files:armv7a-vfp-neon (3.0.14-r86), update-alternatives-opkg:armv7a-vfp-neon (0.1.8+git0+c33b217016-r0), modutils-initscripts:armv7a-vfp-neon (1.0-r7), sysvinit-inittab:armv7a-vfp-neon (2.88dsf-r10), init-ifupdown:armv7a-vfp-neon (1.0-r7), initscripts-functions:armv7a-vfp-neon (1.0-r154), netbase:armv7a-vfp-neon (5.2-r0), busybox-inetd:armv7a-vfp-neon (1.22.1-r0), sysvinit-pidof:armv7a-vfp-neon (2.88dsf-r11), base-passwd:armv7a-vfp-neon (3.5.29-r0), mtd-utils:armv7a-vfp-neon (1.5.0+git0+dcea43eba9-r0), update-rc.d:armv7a-vfp-neon (0.7-r5), libgcc-s1:armv7a-vfp-neon (4.8.1-r1), gdbserver:armv7a-vfp-neon (7.6.50.20130726-cvs-r1), busybox-mdev:armv7a-vfp-neon (1.22.1-r0), libc6:armv7a-vfp-neon (2.18-r1), initscripts:armv7a-vfp-neon (1.0-r154), busybox-udhcpc:armv7a-vfp-neon (1.22.1-r0), sysvinit:armv7a-vfp-neon (2.88dsf-r11), busybox:armv7a-vfp-neon (1.22.1-r0)
+Error: Sub-process /opt/PetaLinux/petalinux-v2014.2-final/tools/packagemanager/bin/dpkg returned an error code (1)
+End-Date: 2014-11-21  20:32:29
+
+Start-Date: 2014-11-21  20:33:58
+Commandline: apt-get install busybox gdbserver init-ifupdown busybox-udhcpc base-files update-alternatives-opkg initscripts-functions busybox-inetd libgcc-s1 sysvinit-pidof sysvinit busybox-mdev netbase libc6 modutils-initscripts update-rc.d mtd-utils sysvinit-inittab initscripts base-passwd --force-yes --allow-unauthenticated
+Upgrade: update-alternatives-opkg:armv7a-vfp-neon (0.1.8+git0+c33b217016-r0, 0.1.8+git0+c33b217016-r0), init-ifupdown:armv7a-vfp-neon (1.0-r7, 1.0-r7)
+End-Date: 2014-11-21  20:34:16
+
+Start-Date: 2014-11-21  20:34:17
+Commandline: apt-get install run-postinsts --force-yes --allow-unauthenticated
+Install: run-postinsts:armv7a-vfp-neon (1.0-r9)
+End-Date: 2014-11-21  20:34:19

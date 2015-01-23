@@ -1,0 +1,1936 @@
+=====================
+Opened log file
+=====================
+Created pcores directory
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+Copied /opt/Xilinx/14.2/ISE_DS/EDK/data/xflow/bitgen_zynq.ut to etc directory
+Copied file /opt/Xilinx/14.2/ISE_DS/EDK/data/xflow/fast_runtime_zynq.opt to etc
+directory
+
+Overriding IP level properties ...
+
+Computing clock values...
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+
+Checking platform address map ...
+Created backup of etc/bitgen.ut to etc/bitgen.ut.virtex5
+Copied /opt/Xilinx/14.2/ISE_DS/EDK/data/xflow/bitgen_zynq.ut to etc directory
+Created backup of etc/fast_runtime.opt to etc/fast_runtime.opt.virtex5
+Copied file /opt/Xilinx/14.2/ISE_DS/EDK/data/xflow/fast_runtime_zynq.opt to etc
+directory
+No changes to be saved in MHS file
+Saved project XMP file
+Saved Make file
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+WARNING:EDK:4092 - IPNAME: processing_system7, INSTANCE: processing_system7_0 - Pre-Production version not verified on hardware for architecture 'zynq' - /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/_xps_tempmhsfilename.mhs line 28 
+Writing filter settings....
+Done writing filter settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.filters
+Done writing Tab View settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.gui
+Writing filter settings....
+Done writing filter settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.filters
+Done writing Tab View settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.gui
+Assigned Driver adxl 1.00.a for instance adxl_0
+adxl_0 has been added to the project
+WARNING:EDK:2137 - Peripheral adxl_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+Assigned Driver generic 1.00.a for instance axi_interconnect_1
+Address Map for Processor processing_system7_0
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+INFO:EDK - Do connection by refering to bus interface of a processing_system7_0 in design
+INFO:EDK - Create new axi_interconnect IP instance axi_interconnect_1
+INFO:EDK - Connect clock port M_AXI_GP0_ACLK to processing_system7_0_FCLK_CLK0
+INFO:EDK - Connect bus interface S_AXI to axi_interconnect_1
+INFO:EDK - Connect clock port S_AXI_ACLK to processing_system7_0_FCLK_CLK0
+INFO:EDK - Successfully did connection by refering to M_AXI_GP0 bus interface in processing_system7_0
+INFO:EDK - External IO port grouping doneINFO:EDK - Generate address successfully
+INFO:EDK - Successfully finished auto bus connection for IP instance: adxl_0
+Overriding Xilinx file <TextEditor.cfg> with local file </opt/Xilinx/14.2/ISE_DS/EDK/data/TextEditor.cfg>
+
+********************************************************************************
+At Local date and time: Mon Nov  3 10:40:31 2014
+ make -f system.make netlist started...
+****************************************************
+Creating system netlist for hardware specification..
+****************************************************
+platgen -p xc7z020clg484-1 -lang verilog -intstyle pa -lp /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/lib/  -toplevel no -ti system_i -msg __xps/ise/xmsgprops.lst system.mhs
+
+Command Line: platgen -p xc7z020clg484-1 -lang verilog -intstyle pa -lp
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/lib/ -toplevel no -ti
+system_i -msg __xps/ise/xmsgprops.lst system.mhs 
+
+WARNING:EDK - INFO:Security:67 - XILINXD_LICENSE_FILE is set to
+   '/opt/PetaLinux/petalinux-v2014.2-final/etc/license' in
+   /home/kartha/.flexlmrc.
+   INFO:Security:71 - If a license for part 'xc7z020' is available, it will be
+   possible to use 'XPS_TDP' instead of 'XPS'.
+   WARNING:Security:42 - Your software subscription period has lapsed. Your
+   current version of Xilinx tools will continue to function, but you no longer
+   qualify for Xilinx software updates or new releases.
+
+
+Parse
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.s
+rcs/sources_1/edk/system/system.mhs ...
+
+Read MPD definitions ...
+WARNING:EDK:4092 - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK:4092 - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK:4092 - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK:4092 - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK:1432 - Frequency for Top-Level Input Clock
+   'processing_system7_0_PS_CLK' is not specified. Clock DRCs will not be
+   performed for IPs connected to that clock port, unless they are connected
+   through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+
+Checking platform configuration ...
+IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 - 1 master(s) : 1
+slave(s) 
+
+Checking port drivers...
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_FCLK_CLK1_BUF value to FALSE -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 345 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_FCLK_CLK2_BUF value to FALSE -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 346 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_FCLK_CLK3_BUF value to FALSE -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 347 
+
+INFO: Setting C_RANGE_CHECK = ON for axi_interconnect axi_interconnect_1.
+INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_RANGE_CHECK value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 148 
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+ZynqConfig: Terminated for tcl mode
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+ZynqConfig: Terminated for tcl mode
+
+Running UPDATE Tcl procedures for OPTION PLATGEN_SYSLEVEL_UPDATE_PROC...
+ZynqConfig: Terminated for tcl mode
+INFO: No asynchronous clock conversions in axi_interconnect axi_interconnect_1.
+
+Modify defaults ...
+
+Creating stub ...
+
+Processing licensed instances ...
+Completion time: 0.00 seconds
+
+Creating hardware output directories ...
+
+Managing hardware (BBD-specified) netlist files ...
+
+Managing cache ...
+
+Elaborating instances ...
+
+Writing HDL for elaborated instances ...
+
+Inserting wrapper level ...
+Completion time: 1.00 seconds
+
+Constructing platform-level connectivity ...
+Completion time: 0.00 seconds
+
+Writing (top-level) BMM ...
+
+Writing (top-level and wrappers) HDL ...
+
+Generating synthesis project file ...
+
+Running XST synthesis ...
+
+INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
+   IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
+   synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+INSTANCE:processing_system7_0 -
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.s
+rcs/sources_1/edk/system/system.mhs line 43 - Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.2/ISE_DS/EDK/zynq/data/zynq.acd> with local file
+</opt/Xilinx/14.2/ISE_DS/ISE/zynq/data/zynq.acd>
+INSTANCE:adxl_0 -
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.s
+rcs/sources_1/edk/system/system.mhs line 129 - Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.2/ISE_DS/EDK/zynq/data/zynq.acd> with local file
+</opt/Xilinx/14.2/ISE_DS/ISE/zynq/data/zynq.acd>
+INSTANCE:axi_interconnect_1 -
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.s
+rcs/sources_1/edk/system/system.mhs line 144 - Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.2/ISE_DS/EDK/zynq/data/zynq.acd> with local file
+</opt/Xilinx/14.2/ISE_DS/ISE/zynq/data/zynq.acd>
+
+Running NGCBUILD ...
+IPNAME:system_axi_interconnect_1_wrapper INSTANCE:axi_interconnect_1 -
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.s
+rcs/sources_1/edk/system/system.mhs line 144 - Running NGCBUILD
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.2/ISE_DS/EDK/zynq/data/zynq.acd> with local file
+</opt/Xilinx/14.2/ISE_DS/ISE/zynq/data/zynq.acd>
+
+Command Line: /opt/Xilinx/14.2/ISE_DS/ISE/bin/lin/unwrapped/ngcbuild -p
+xc7z020clg484-1 -intstyle silent -i -sd .. system_axi_interconnect_1_wrapper.ngc
+../system_axi_interconnect_1_wrapper
+
+Reading NGO file
+"/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.
+srcs/sources_1/edk/system/implementation/axi_interconnect_1_wrapper/system_axi_i
+nterconnect_1_wrapper.ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../system_axi_interconnect_1_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  7 sec
+Total CPU time to NGCBUILD completion:   6 sec
+
+Writing NGCBUILD log file "../system_axi_interconnect_1_wrapper.blc"...
+
+NGCBUILD done.
+INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
+   If any constraint needs to be overridden, this should be done by modifying
+   the data/system.ucf file.
+
+Rebuilding cache ...
+
+Total run time: 88.00 seconds
+Running synthesis...
+bash -c "cd synthesis; ./synthesis.sh"
+xst -ifn system_xst.scr -intstyle silent
+Running XST synthesis ...
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.2/ISE_DS/EDK/zynq/data/zynq.acd> with local file
+</opt/Xilinx/14.2/ISE_DS/ISE/zynq/data/zynq.acd>
+XST completed
+Done!
+Writing filter settings....
+Done writing filter settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.filters
+Done writing Tab View settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.gui
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Writing filter settings....
+Done writing filter settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.filters
+Done writing Tab View settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.gui
+
+********************************************************************************
+At Local date and time: Mon Nov  3 12:40:10 2014
+ make -f system.make netlist started...
+****************************************************
+Creating system netlist for hardware specification..
+****************************************************
+platgen -p xc7z020clg484-1 -lang verilog -intstyle pa -lp /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/lib/  -toplevel no -ti system_i -msg __xps/ise/xmsgprops.lst system.mhs
+
+Command Line: platgen -p xc7z020clg484-1 -lang verilog -intstyle pa -lp
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/lib/ -toplevel no -ti
+system_i -msg __xps/ise/xmsgprops.lst system.mhs 
+
+WARNING:EDK - INFO:Security:67 - XILINXD_LICENSE_FILE is set to
+   '/opt/PetaLinux/petalinux-v2014.2-final/etc/license' in
+   /home/kartha/.flexlmrc.
+   INFO:Security:71 - If a license for part 'xc7z020' is available, it will be
+   possible to use 'XPS_TDP' instead of 'XPS'.
+   WARNING:Security:42 - Your software subscription period has lapsed. Your
+   current version of Xilinx tools will continue to function, but you no longer
+   qualify for Xilinx software updates or new releases.
+
+
+Parse
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.s
+rcs/sources_1/edk/system/system.mhs ...
+
+Read MPD definitions ...
+WARNING:EDK:4092 - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK:4092 - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK:4092 - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK:4092 - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK:1432 - Frequency for Top-Level Input Clock
+   'processing_system7_0_PS_CLK' is not specified. Clock DRCs will not be
+   performed for IPs connected to that clock port, unless they are connected
+   through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+
+Checking platform configuration ...
+IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 - 1 master(s) : 1
+slave(s) 
+
+Checking port drivers...
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_FCLK_CLK1_BUF value to FALSE -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 345 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_FCLK_CLK2_BUF value to FALSE -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 346 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_FCLK_CLK3_BUF value to FALSE -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 347 
+
+INFO: Setting C_RANGE_CHECK = ON for axi_interconnect axi_interconnect_1.
+INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_RANGE_CHECK value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 148 
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+ZynqConfig: Terminated for tcl mode
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+ZynqConfig: Terminated for tcl mode
+
+Running UPDATE Tcl procedures for OPTION PLATGEN_SYSLEVEL_UPDATE_PROC...
+ZynqConfig: Terminated for tcl mode
+INFO: No asynchronous clock conversions in axi_interconnect axi_interconnect_1.
+
+Modify defaults ...
+
+Creating stub ...
+
+Processing licensed instances ...
+Completion time: 0.00 seconds
+
+Creating hardware output directories ...
+
+Managing hardware (BBD-specified) netlist files ...
+
+Managing cache ...
+IPNAME:processing_system7 INSTANCE:processing_system7_0 -
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.s
+rcs/sources_1/edk/system/system.mhs line 43 - Copying cache implementation
+netlist
+IPNAME:adxl INSTANCE:adxl_0 -
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.s
+rcs/sources_1/edk/system/system.mhs line 129 - Copying cache implementation
+netlist
+IPNAME:axi_interconnect INSTANCE:axi_interconnect_1 -
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.s
+rcs/sources_1/edk/system/system.mhs line 144 - Copying cache implementation
+netlist
+
+Elaborating instances ...
+
+Writing HDL for elaborated instances ...
+
+Inserting wrapper level ...
+Completion time: 0.00 seconds
+
+Constructing platform-level connectivity ...
+Completion time: 0.00 seconds
+
+Writing (top-level) BMM ...
+
+Writing (top-level and wrappers) HDL ...
+
+Generating synthesis project file ...
+
+Running XST synthesis ...
+
+INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
+   IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
+   synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+INSTANCE:adxl_0 -
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.s
+rcs/sources_1/edk/system/system.mhs line 129 - Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.2/ISE_DS/EDK/zynq/data/zynq.acd> with local file
+</opt/Xilinx/14.2/ISE_DS/ISE/zynq/data/zynq.acd>
+ERROR:HDLCompiler:69 - "/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/pcores/adxl_v1_00_a/hdl/verilog/user_logic.v" Line 236: <LED> is not declared.
+ERROR:HDLCompiler:69 - "/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/pcores/adxl_v1_00_a/hdl/verilog/user_logic.v" Line 245: <sw> is not declared.
+ERROR:HDLCompiler:69 - "/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/pcores/adxl_v1_00_a/hdl/verilog/user_logic.v" Line 341: <LED> is not declared.
+ERROR:HDLCompiler:598 - "/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/pcores/adxl_v1_00_a/hdl/verilog/user_logic.v" Line 54: Module <user_logic> ignored due to previous errors.
+ERROR:EDK:546 - Aborting XST flow execution!
+INFO:EDK:2246 - Refer to
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/synthesis/system_adxl_0_wrapper_xst.srp for
+   details
+
+Running NGCBUILD ...
+INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
+   If any constraint needs to be overridden, this should be done by modifying
+   the data/system.ucf file.
+
+Rebuilding cache ...
+ERROR:EDK:440 - platgen failed with errors!
+make: *** [implementation/system_processing_system7_0_wrapper.ngc] Error 2
+Done!
+Overriding Xilinx file <TextEditor.cfg> with local file </opt/Xilinx/14.2/ISE_DS/EDK/data/TextEditor.cfg>
+Writing filter settings....
+Done writing filter settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.filters
+Done writing Tab View settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.gui
+
+********************************************************************************
+At Local date and time: Mon Nov  3 12:43:25 2014
+ make -f system.make netlist started...
+****************************************************
+Creating system netlist for hardware specification..
+****************************************************
+platgen -p xc7z020clg484-1 -lang verilog -intstyle pa -lp /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/lib/  -toplevel no -ti system_i -msg __xps/ise/xmsgprops.lst system.mhs
+
+Command Line: platgen -p xc7z020clg484-1 -lang verilog -intstyle pa -lp
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/lib/ -toplevel no -ti
+system_i -msg __xps/ise/xmsgprops.lst system.mhs 
+
+WARNING:EDK - INFO:Security:67 - XILINXD_LICENSE_FILE is set to
+   '/opt/PetaLinux/petalinux-v2014.2-final/etc/license' in
+   /home/kartha/.flexlmrc.
+   INFO:Security:71 - If a license for part 'xc7z020' is available, it will be
+   possible to use 'XPS_TDP' instead of 'XPS'.
+   WARNING:Security:42 - Your software subscription period has lapsed. Your
+   current version of Xilinx tools will continue to function, but you no longer
+   qualify for Xilinx software updates or new releases.
+
+
+Parse
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.s
+rcs/sources_1/edk/system/system.mhs ...
+
+Read MPD definitions ...
+WARNING:EDK:4092 - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK:4092 - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK:4092 - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK:4092 - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK:1432 - Frequency for Top-Level Input Clock
+   'processing_system7_0_PS_CLK' is not specified. Clock DRCs will not be
+   performed for IPs connected to that clock port, unless they are connected
+   through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+
+Checking platform configuration ...
+IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 - 1 master(s) : 1
+slave(s) 
+
+Checking port drivers...
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_FCLK_CLK1_BUF value to FALSE -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 345 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_FCLK_CLK2_BUF value to FALSE -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 346 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_FCLK_CLK3_BUF value to FALSE -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 347 
+
+INFO: Setting C_RANGE_CHECK = ON for axi_interconnect axi_interconnect_1.
+INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_RANGE_CHECK value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 148 
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+ZynqConfig: Terminated for tcl mode
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+ZynqConfig: Terminated for tcl mode
+
+Running UPDATE Tcl procedures for OPTION PLATGEN_SYSLEVEL_UPDATE_PROC...
+ZynqConfig: Terminated for tcl mode
+INFO: No asynchronous clock conversions in axi_interconnect axi_interconnect_1.
+
+Modify defaults ...
+
+Creating stub ...
+
+Processing licensed instances ...
+Completion time: 0.00 seconds
+
+Creating hardware output directories ...
+
+Managing hardware (BBD-specified) netlist files ...
+
+Managing cache ...
+IPNAME:processing_system7 INSTANCE:processing_system7_0 -
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.s
+rcs/sources_1/edk/system/system.mhs line 43 - Copying cache implementation
+netlist
+IPNAME:axi_interconnect INSTANCE:axi_interconnect_1 -
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.s
+rcs/sources_1/edk/system/system.mhs line 144 - Copying cache implementation
+netlist
+
+Elaborating instances ...
+
+Writing HDL for elaborated instances ...
+
+Inserting wrapper level ...
+Completion time: 0.00 seconds
+
+Constructing platform-level connectivity ...
+Completion time: 0.00 seconds
+
+Writing (top-level) BMM ...
+
+Writing (top-level and wrappers) HDL ...
+
+Generating synthesis project file ...
+
+Running XST synthesis ...
+
+INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
+   IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
+   synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+INSTANCE:adxl_0 -
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.s
+rcs/sources_1/edk/system/system.mhs line 129 - Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.2/ISE_DS/EDK/zynq/data/zynq.acd> with local file
+</opt/Xilinx/14.2/ISE_DS/ISE/zynq/data/zynq.acd>
+
+Running NGCBUILD ...
+INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
+   If any constraint needs to be overridden, this should be done by modifying
+   the data/system.ucf file.
+
+Rebuilding cache ...
+
+Total run time: 27.00 seconds
+Running synthesis...
+bash -c "cd synthesis; ./synthesis.sh"
+xst -ifn system_xst.scr -intstyle silent
+Running XST synthesis ...
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.2/ISE_DS/EDK/zynq/data/zynq.acd> with local file
+</opt/Xilinx/14.2/ISE_DS/ISE/zynq/data/zynq.acd>
+XST completed
+Done!
+Writing filter settings....
+Done writing filter settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.filters
+Done writing Tab View settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.gui
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Writing filter settings....
+Done writing filter settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.filters
+Done writing Tab View settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.gui
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Writing filter settings....
+Done writing filter settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.filters
+Done writing Tab View settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.gui
+Writing filter settings....
+Done writing filter settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.filters
+Done writing Tab View settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.gui
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Writing filter settings....
+Done writing filter settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.filters
+Done writing Tab View settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.gui
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+Generated Addresses Successfully
+
+********************************************************************************
+At Local date and time: Wed Nov 12 14:16:09 2014
+ make -f system.make netlist started...
+****************************************************
+Creating system netlist for hardware specification..
+****************************************************
+platgen -p xc7z020clg484-1 -lang verilog -intstyle pa -lp /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/lib/  -toplevel no -ti system_i -msg __xps/ise/xmsgprops.lst system.mhs
+
+Command Line: platgen -p xc7z020clg484-1 -lang verilog -intstyle pa -lp
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/lib/ -toplevel no -ti
+system_i -msg __xps/ise/xmsgprops.lst system.mhs 
+
+WARNING:EDK - INFO:Security:67 - XILINXD_LICENSE_FILE is set to
+   '/opt/PetaLinux/petalinux-v2014.2-final/etc/license' in
+   /home/kartha/.flexlmrc.
+   INFO:Security:71 - If a license for part 'xc7z020' is available, it will be
+   possible to use 'XPS_TDP' instead of 'XPS'.
+   WARNING:Security:42 - Your software subscription period has lapsed. Your
+   current version of Xilinx tools will continue to function, but you no longer
+   qualify for Xilinx software updates or new releases.
+
+
+Parse
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.s
+rcs/sources_1/edk/system/system.mhs ...
+
+Read MPD definitions ...
+WARNING:EDK:4092 - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK:4092 - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK:4092 - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK:4092 - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK:1432 - Frequency for Top-Level Input Clock
+   'processing_system7_0_PS_CLK' is not specified. Clock DRCs will not be
+   performed for IPs connected to that clock port, unless they are connected
+   through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+
+Checking platform configuration ...
+IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 - 1 master(s) : 1
+slave(s) 
+
+Checking port drivers...
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_FCLK_CLK1_BUF value to FALSE -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 345 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_FCLK_CLK2_BUF value to FALSE -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 346 
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_FCLK_CLK3_BUF value to FALSE -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 347 
+
+INFO: Setting C_RANGE_CHECK = ON for axi_interconnect axi_interconnect_1.
+INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_RANGE_CHECK value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 148 
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+ZynqConfig: Terminated for tcl mode
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+ZynqConfig: Terminated for tcl mode
+
+Running UPDATE Tcl procedures for OPTION PLATGEN_SYSLEVEL_UPDATE_PROC...
+ZynqConfig: Terminated for tcl mode
+INFO: No asynchronous clock conversions in axi_interconnect axi_interconnect_1.
+
+Modify defaults ...
+
+Creating stub ...
+
+Processing licensed instances ...
+Completion time: 0.00 seconds
+
+Creating hardware output directories ...
+
+Managing hardware (BBD-specified) netlist files ...
+
+Managing cache ...
+IPNAME:processing_system7 INSTANCE:processing_system7_0 -
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.s
+rcs/sources_1/edk/system/system.mhs line 43 - Copying cache implementation
+netlist
+IPNAME:adxl INSTANCE:adxl_0 -
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.s
+rcs/sources_1/edk/system/system.mhs line 129 - Copying cache implementation
+netlist
+IPNAME:axi_interconnect INSTANCE:axi_interconnect_1 -
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.s
+rcs/sources_1/edk/system/system.mhs line 144 - Copying cache implementation
+netlist
+
+Elaborating instances ...
+
+Writing HDL for elaborated instances ...
+
+Inserting wrapper level ...
+Completion time: 0.00 seconds
+
+Constructing platform-level connectivity ...
+Completion time: 0.00 seconds
+
+Writing (top-level) BMM ...
+
+Writing (top-level and wrappers) HDL ...
+
+Generating synthesis project file ...
+
+Running XST synthesis ...
+
+INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
+   IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
+   synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+INSTANCE:adxl_0 -
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.s
+rcs/sources_1/edk/system/system.mhs line 129 - Running XST synthesis
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.2/ISE_DS/EDK/zynq/data/zynq.acd> with local file
+</opt/Xilinx/14.2/ISE_DS/ISE/zynq/data/zynq.acd>
+
+Running NGCBUILD ...
+INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
+   If any constraint needs to be overridden, this should be done by modifying
+   the data/system.ucf file.
+
+Rebuilding cache ...
+
+Total run time: 36.00 seconds
+Running synthesis...
+bash -c "cd synthesis; ./synthesis.sh"
+xst -ifn system_xst.scr -intstyle silent
+Running XST synthesis ...
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.2/ISE_DS/EDK/zynq/data/zynq.acd> with local file
+</opt/Xilinx/14.2/ISE_DS/ISE/zynq/data/zynq.acd>
+XST completed
+Done!
+Writing filter settings....
+Done writing filter settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.filters
+Done writing Tab View settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.gui
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+=====================
+Opened log file
+=====================
+=====================
+Opened log file
+=====================
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+Xilinx EDK 14.2 Build EDK_P.28xd
+
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+WARNING:EDK - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl is
+   overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK - Frequency for Top-Level Input Clock 'processing_system7_0_PS_CLK' is
+   not specified. Clock DRCs will not be performed for IPs connected to that
+   clock port, unless they are connected through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Writing filter settings....
+Done writing filter settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.filters
+Done writing Tab View settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.gui
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.2 Build EDK_P.28xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Writing filter settings....
+Done writing filter settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.filters
+Done writing Tab View settings to:
+	/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/etc/system.gui

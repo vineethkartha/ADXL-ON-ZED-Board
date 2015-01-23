@@ -1,0 +1,8 @@
+PROOT:=/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2
+INSTANCE:=linux/rootfs/uWeb
+-include /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/Makefile.export
+-include /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/Makefile.export
+-include /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/apps/uWeb/Makefile.export
+CONFIGFILE:=/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/subsystems/linux/configs/rootfs/config
+dir_apps_y=/opt/PetaLinux/petalinux-v2014.2-final/components/apps/uWeb
+

@@ -1,0 +1,96 @@
+/*
+Author: Vineeth Kartha
+Date: 12-11-2014
+Driver to access Accelerometer 
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/mman.h>
+#include <fcntl.h>
+#include<getopt.h>
+
+#define ACCEL_ADDR 0x62C00000
+#define REG1_OFFSET 0
+#define REG2_OFFSET 4
+#define REG3_OFFSET 8
+
+signed char acceleration(void *ptr, char axis)
+{
+	*((unsigned *)(ptr + REG1_OFFSET)) = 1;
+	switch(axis)
+	{
+		case 'x':
+				*((unsigned *)(ptr + REG2_OFFSET)) = 0x08;
+				break;
+		case 'y':
+				*((unsigned *)(ptr + REG2_OFFSET)) = 0x09;
+				break;
+		case 'z':
+				*((unsigned *)(ptr + REG2_OFFSET)) = 0x0A;
+				break;
+	}
+	return(*((unsigned *)(ptr + REG3_OFFSET)));
+	
+}
+
+void printhelp()
+{
+	printf("\n Usage adxl362 [OPTIONS]\n");
+	printf("\nOPTIONS\n");
+	printf("\t -a [x or y or z]: Provide one axis name in small letters\n");
+}
+int main(int argc, char *argv[])
+{
+	int fd;
+	void *ptr;
+	unsigned page_size=sysconf(_SC_PAGESIZE);
+	signed char val;
+	char axis;
+	int next;
+  	char* short_ops="ha:";
+ 	struct option long_ops[]={{"help",0,NULL,'h'},{"axis",1,NULL,'o'},{NULL,0,NULL,0}};
+    
+	int i;
+	
+	fd = open ("/dev/mem", O_RDWR);
+	if (fd < 1) {
+		perror(argv[0]);
+		return -1;
+	}
+
+	if(argc!=2)
+	{
+		printf("\n Usage: adxl362 [OPTIONS]\n Use adxl362 --help for more info\n");
+		return 1;
+	}
+	else
+	{
+
+	next=getopt_long(argc,argv,short_ops,long_ops,NULL);
+    switch(next)
+      {
+      case 'h':printhelp();
+				break;
+      case 'a':axis=argv[2][0];
+				ptr = mmap(NULL, page_size, PROT_READ|PROT_WRITE, MAP_SHARED, fd, ACCEL_ADDR);
+				while(1)
+				{
+					val=acceleration(ptr,axis);
+					printf("%c - axis %d\n",axis,val);			
+				}	
+				munmap(ptr, page_size);
+				break;
+      case '?':
+				break;
+      case -1:
+				break;
+      default:
+				break;
+      }
+	
+	}
+	return 0;
+}
+

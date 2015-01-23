@@ -1,0 +1,71 @@
+Release 14.2 - platgen Xilinx EDK 14.2 Build EDK_P.28xd
+ (lin)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: platgen -p xc7z020clg484-1 -lang verilog -intstyle pa -stubgen -lp
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/lib/
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.s
+rcs/sources_1/edk/system/system.mhs 
+
+WARNING:EDK - INFO:Security:67 - XILINXD_LICENSE_FILE is set to
+   '/opt/PetaLinux/petalinux-v2014.2-final/etc/license' in
+   /home/kartha/.flexlmrc.
+   INFO:Security:71 - If a license for part 'xc7z020' is available, it will be
+   possible to use 'XPS_TDP' instead of 'XPS'.
+   WARNING:Security:42 - Your software subscription period has lapsed. Your
+   current version of Xilinx tools will continue to function, but you no longer
+   qualify for Xilinx software updates or new releases.
+
+
+Parse
+/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.s
+rcs/sources_1/edk/system/system.mhs ...
+
+Create merged mhs ...
+WARNING:EDK:4092 - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 43 
+WARNING:EDK:4092 - IPNAME: axi_interconnect, INSTANCE: axi_interconnect_1 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_
+   1.srcs/sources_1/edk/system/system.mhs line 144 
+
+Overriding IP level properties ...
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/processing_system7
+   _v4_01_a/data/processing_system7_v2_1_0.mpd line 314 
+INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_1 - tcl is
+   overriding PARAMETER C_BASEFAMILY value to zynq -
+   /opt/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
+   1_06_a/data/axi_interconnect_v2_1_0.mpd line 80 
+
+Computing clock values...
+INFO:EDK:1432 - Frequency for Top-Level Input Clock
+   'processing_system7_0_PS_CLK' is not specified. Clock DRCs will not be
+   performed for IPs connected to that clock port, unless they are connected
+   through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor processing_system7_0
+  (0x62c00000-0x62c0ffff) adxl_0	axi_interconnect_1
+
+Checking platform address map ...
+
+Modify defaults ...
+
+Creating stub ...
+
+Elaborating instances ...
+
+Inserting wrapper level ...
+
+Writing (stub) BMM ...
+
+Writing top-level HDL ...
+
+Total run time: 2.00 seconds

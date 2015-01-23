@@ -1,0 +1,10 @@
+-batch 
+-create adxl 
+-ver 1.00.a 
+-dir "/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system" 
+-lang verilog 
+-bus axi4lite s 
+-reg 3 
+-xps 
+-ise 
+-driver 

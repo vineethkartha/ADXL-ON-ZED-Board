@@ -1,0 +1,14 @@
+#  GCLK 
+NET "adxl_0_clk_pin" IOSTANDARD = LVCMOS33;
+NET "adxl_0_clk_pin" LOC = Y9;
+#  BTNC 
+NET "adxl_0_rst_pin" IOSTANDARD = LVCMOS18;
+NET "adxl_0_rst_pin" LOC = P16;
+NET "adxl_0_CS_pin" IOSTANDARD = LVCMOS33;
+NET "adxl_0_CS_pin" LOC = Y11;
+NET "adxl_0_MOSI_pin" IOSTANDARD = LVCMOS33;
+NET "adxl_0_MOSI_pin" LOC = AA11;
+NET "adxl_0_MISO_pin" IOSTANDARD = LVCMOS33;
+NET "adxl_0_MISO_pin" LOC = Y10;
+NET "adxl_0_SCK_pin" IOSTANDARD = LVCMOS33;
+NET "adxl_0_SCK_pin" LOC = AA9;

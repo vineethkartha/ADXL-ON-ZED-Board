@@ -1,0 +1,3 @@
+/home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/u-boot-plnx/lib/crc8.o: \
+ crc8.c \
+ /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/src/u-boot-plnx/include/linux/crc8.h

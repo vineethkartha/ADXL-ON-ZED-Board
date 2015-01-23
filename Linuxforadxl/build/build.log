@@ -1,0 +1,65 @@
+[ALL  ] make: Entering directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux'
+[ALL  ] if [ ! -z "none" ] && [ ! "none" == "none" ]; then 		sinstance=none; 		sbuild=none; 	elif [ "single" == "multi" ]; then 		sinstance=device-tree-generator; 		sbuild=device-tree/device-tree-generator; 	else 		sinstance=device-tree; 		sbuild=device-tree; 	fi; 	make INSTANCE=linux/${sinstance} -C ${sbuild} pre-build
+[ALL  ] make[1]: Entering directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/device-tree'
+[ALL  ] make[1]: Nothing to be done for `pre-build'.
+[ALL  ] make[1]: Leaving directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/device-tree'
+[ALL  ] if [ ! -z "kernel" ] && [ ! "kernel" == "none" ]; then 		sinstance=kernel; 		sbuild=kernel; 	elif [ "single" == "multi" ]; then 		sinstance=xlnx-3.14; 		sbuild=linux-kernel/xlnx-3.14; 	else 		sinstance=linux-kernel; 		sbuild=linux-kernel; 	fi; 	make INSTANCE=linux/${sinstance} -C ${sbuild} pre-build
+[ALL  ] make[1]: Entering directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/kernel'
+[ALL  ] make[1]: Nothing to be done for `pre-build'.
+[ALL  ] make[1]: Leaving directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/kernel'
+[ALL  ] if [ ! -z "none" ] && [ ! "none" == "none" ]; then 		sinstance=none; 		sbuild=none; 	elif [ "single" == "multi" ]; then 		sinstance=u-boot-plnx; 		sbuild=u-boot/u-boot-plnx; 	else 		sinstance=u-boot; 		sbuild=u-boot; 	fi; 	make INSTANCE=linux/${sinstance} -C ${sbuild} pre-build
+[ALL  ] make[1]: Entering directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot'
+[ALL  ] make[1]: Nothing to be done for `pre-build'.
+[ALL  ] make[1]: Leaving directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot'
+[ALL  ] if [ ! -z "none" ] && [ ! "none" == "none" ]; then 		sinstance=none; 		sbuild=none; 	elif [ "single" == "multi" ]; then 		sinstance=zynq_fsbl; 		sbuild=bootloader/zynq_fsbl; 	else 		sinstance=bootloader; 		sbuild=bootloader; 	fi; 	make INSTANCE=linux/${sinstance} -C ${sbuild} pre-build
+[ALL  ] make[1]: Entering directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/bootloader'
+[ALL  ] make[1]: Nothing to be done for `pre-build'.
+[ALL  ] make[1]: Leaving directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/bootloader'
+[ALL  ] if [ ! -z "none" ] && [ ! "none" == "none" ]; then 		sinstance=none; 		sbuild=none; 	elif [ "single" == "multi" ]; then 		sinstance=petalinux-rootfs; 		sbuild=rootfs/petalinux-rootfs; 	else 		sinstance=rootfs; 		sbuild=rootfs; 	fi; 	make INSTANCE=linux/${sinstance} -C ${sbuild} pre-build
+[ALL  ] make[1]: Entering directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs'
+[ALL  ] if [ -z "1b54b613143722405189b6f0e7b55108" ]; then 		echo "ERROR: cannot calculate checksum of linux/rootfs config file."; 		echo "ERROR: Please run petalinux-config -c linux/rootfs first."; 		exit 255; 	elif [ -z "1b54b613143722405189b6f0e7b55108" ]; then 		echo "1b54b613143722405189b6f0e7b55108" > "config_checksum"; 	elif [ ! "1b54b613143722405189b6f0e7b55108" == "1b54b613143722405189b6f0e7b55108" ]; then 		echo "1b54b613143722405189b6f0e7b55108" > "config_checksum"; 		make INSTANCE=linux/rootfs clean; 	fi
+[ALL  ] if [ ! -z "none" ] && [ ! "none" == "none" ]; then 		sinstance=none; 		sbuild=none; 	elif [ "single" == "multi" ]; then 		sinstance=plnx-repo; 		sbuild=packages-repo/plnx-repo; 	else 		sinstance=packages-repo; 		sbuild=packages-repo; 	fi; 	make INSTANCE=linux/rootfs/${sinstance} -C ${sbuild} pre-build
+[ALL  ] make[2]: Entering directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo'
+[ALL  ] make[2]: Nothing to be done for `pre-build'.
+[ALL  ] make[2]: Leaving directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo'
+[ALL  ] if [ ! -z "none" ] && [ ! "none" == "none" ]; then 		sinstance=none; 		sbuild=none; 	elif [ "multi" == "multi" ]; then 		sinstance=adxl362; 		sbuild=apps/adxl362; 	else 		sinstance=apps; 		sbuild=apps; 	fi; 	make INSTANCE=linux/rootfs/${sinstance} -C ${sbuild} pre-build
+[ALL  ] make[2]: Entering directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/apps/adxl362'
+[INFO ] pre-build linux/rootfs/adxl362
+[ALL  ] make[2]: Leaving directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/apps/adxl362'
+[ALL  ] if [ ! -z "none" ] && [ ! "none" == "none" ]; then 		sinstance=none; 		sbuild=none; 	elif [ "multi" == "multi" ]; then 		sinstance=adxl362server; 		sbuild=apps/adxl362server; 	else 		sinstance=apps; 		sbuild=apps; 	fi; 	make INSTANCE=linux/rootfs/${sinstance} -C ${sbuild} pre-build
+[ALL  ] make[2]: Entering directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/apps/adxl362server'
+[INFO ] pre-build linux/rootfs/adxl362server
+[ALL  ] make[2]: Leaving directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/apps/adxl362server'
+[ALL  ] if [ ! -z "none" ] && [ ! "none" == "none" ]; then 		sinstance=none; 		sbuild=none; 	elif [ "multi" == "multi" ]; then 		sinstance=configip; 		sbuild=apps/configip; 	else 		sinstance=apps; 		sbuild=apps; 	fi; 	make INSTANCE=linux/rootfs/${sinstance} -C ${sbuild} pre-build
+[ALL  ] make[2]: Entering directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/apps/configip'
+[INFO ] pre-build linux/rootfs/configip
+[ALL  ] make[2]: Leaving directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/apps/configip'
+[ALL  ] if [ ! -z "none" ] && [ ! "none" == "none" ]; then 		sinstance=none; 		sbuild=none; 	elif [ "multi" == "multi" ]; then 		sinstance=fwupgrade; 		sbuild=apps/fwupgrade; 	else 		sinstance=apps; 		sbuild=apps; 	fi; 	make INSTANCE=linux/rootfs/${sinstance} -C ${sbuild} pre-build
+[ALL  ] make[2]: Entering directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/apps/fwupgrade'
+[INFO ] pre-build linux/rootfs/fwupgrade
+[ALL  ] make[2]: Leaving directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/apps/fwupgrade'
+[ALL  ] if [ ! -z "none" ] && [ ! "none" == "none" ]; then 		sinstance=none; 		sbuild=none; 	elif [ "multi" == "multi" ]; then 		sinstance=peekpoke; 		sbuild=apps/peekpoke; 	else 		sinstance=apps; 		sbuild=apps; 	fi; 	make INSTANCE=linux/rootfs/${sinstance} -C ${sbuild} pre-build
+[ALL  ] make[2]: Entering directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/apps/peekpoke'
+[INFO ] pre-build linux/rootfs/peekpoke
+[ALL  ] make[2]: Leaving directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/apps/peekpoke'
+[ALL  ] if [ ! -z "none" ] && [ ! "none" == "none" ]; then 		sinstance=none; 		sbuild=none; 	elif [ "multi" == "multi" ]; then 		sinstance=uWeb; 		sbuild=apps/uWeb; 	else 		sinstance=apps; 		sbuild=apps; 	fi; 	make INSTANCE=linux/rootfs/${sinstance} -C ${sbuild} pre-build
+[ALL  ] make[2]: Entering directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/apps/uWeb'
+[INFO ] pre-build linux/rootfs/uWeb
+[ALL  ] make[2]: Leaving directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/apps/uWeb'
+[ALL  ] make[1]: Leaving directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs'
+[ALL  ] make: Leaving directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux'
+[ALL  ] make: Entering directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux'
+[ALL  ] if [ ! -z "none" ] && [ ! "none" == "none" ]; then 		sinstance=none; 		sbuild=none; 	elif [ "single" == "multi" ]; then 		sinstance=device-tree-generator; 		sbuild=device-tree/device-tree-generator; 	else 		sinstance=device-tree; 		sbuild=device-tree; 	fi; 	make INSTANCE=linux/${sinstance} -C ${sbuild} build
+[ALL  ] make[1]: Entering directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/device-tree'
+[ALL  ] make[1]: Nothing to be done for `build'.
+[ALL  ] make[1]: Leaving directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/device-tree'
+[ALL  ] if [ ! -z "kernel" ] && [ ! "kernel" == "none" ]; then 		sinstance=kernel; 		sbuild=kernel; 	elif [ "single" == "multi" ]; then 		sinstance=xlnx-3.14; 		sbuild=linux-kernel/xlnx-3.14; 	else 		sinstance=linux-kernel; 		sbuild=linux-kernel; 	fi; 	make INSTANCE=linux/${sinstance} -C ${sbuild} build
+[ALL  ] make[1]: Entering directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/kernel'
+[ALL  ] rsync /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/subsystems/linux/configs/kernel/config /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/kernel/xlnx-3.14/.config
+[ALL  ] rm -rf /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/kernel/boot /media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/kernel/usr
+[ALL  ] ln -s "/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/kernel/xlnx-3.14/arch/arm/boot" "/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/kernel/boot"
+[ALL  ] ln: failed to create symbolic link ‘/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/kernel/boot’: Operation not permitted
+[ERROR] make[1]: *** [linux_exportdir] Error 1
+[ALL  ] make[1]: Leaving directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux/kernel'
+[ALL  ] make: *** [sub_build_component_/kernel/linux-kernel/single/xlnx-3.14] Error 2
+[ALL  ] make: Leaving directory `/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/Avnet-Digilent-ZedBoard-2014.2/build/linux'

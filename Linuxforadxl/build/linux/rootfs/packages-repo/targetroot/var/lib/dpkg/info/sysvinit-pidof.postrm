@@ -1,0 +1,3 @@
+#!/bin/sh
+#!/bin/sh
+	update-alternatives --remove  pidof /bin/pidof.sysvinit

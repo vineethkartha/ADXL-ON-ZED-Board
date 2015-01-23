@@ -1,0 +1,6 @@
+NET adxl_0_clk_pin	  LOC =  Y9    |IOSTANDARD=LVCMOS33;  #  GCLK 
+NET adxl_0_rst_pin	  LOC =  P16   |IOSTANDARD=LVCMOS18;  #  BTNC 
+Net adxl_0_CS_pin 	  LOC= Y11  | IOSTANDARD=LVCMOS33 ;
+Net adxl_0_MOSI_pin 	  LOC= AA11  | IOSTANDARD=LVCMOS33 ;
+Net adxl_0_MISO_pin     LOC= Y10  | IOSTANDARD=LVCMOS33 ;
+Net adxl_0_SCK_pin     LOC= AA9  | IOSTANDARD=LVCMOS33 ;

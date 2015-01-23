@@ -1,0 +1,15 @@
+/home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/u-boot-plnx/arch/arm/lib/crt0.o: \
+ crt0.S \
+ /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/u-boot-plnx/include/config.h \
+ /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/src/u-boot-plnx/include/config_cmd_defaults.h \
+ /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/src/u-boot-plnx/include/config_defaults.h \
+ /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/src/u-boot-plnx/include/configs/zynq_zc70x.h \
+ /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/src/u-boot-plnx/include/configs/platform-auto.h \
+ /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/src/u-boot-plnx/include/config_cmd_default.h \
+ /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/src/u-boot-plnx/arch/arm/include/asm/config.h \
+ /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/src/u-boot-plnx/include/config_fallbacks.h \
+ /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/src/u-boot-plnx/include/config_uncmd_spl.h \
+ /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/src/u-boot-plnx/include/asm-offsets.h \
+ /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/u-boot-plnx/include/generated/generic-asm-offsets.h \
+ /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/src/u-boot-plnx/include/linux/linkage.h \
+ /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/src/u-boot-plnx/arch/arm/include/asm/linkage.h

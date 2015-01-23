@@ -1,0 +1,12 @@
+sf_ops.c:135:13:spi_flash_dual_flash	0	static
+sf_ops.c:156:5:spi_flash_cmd_wait_ready	48	static
+sf_ops.c:206:5:spi_flash_write_common	40	static
+sf_ops.c:42:5:spi_flash_cmd_write_status	32	static
+sf_ops.c:117:12:spi_flash_bank	32	static
+sf_ops.c:247:5:spi_flash_cmd_erase_ops	40	static
+sf_ops.c:290:5:spi_flash_cmd_write_ops	48	static
+sf_ops.c:338:5:spi_flash_read_common	32	static
+sf_ops.c:27:5:spi_flash_cmd_read_status	24	static
+sf_ops.c:73:5:spi_flash_cmd_write_config	32	static
+sf_ops.c:58:5:spi_flash_cmd_read_config	24	static
+sf_ops.c:361:5:spi_flash_cmd_read_ops	56	static

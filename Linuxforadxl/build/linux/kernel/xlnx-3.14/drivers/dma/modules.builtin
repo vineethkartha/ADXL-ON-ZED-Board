@@ -1,0 +1,4 @@
+kernel/drivers/dma/pl330.ko
+kernel/drivers/dma/xilinx/xilinx_axidma.ko
+kernel/drivers/dma/xilinx/xilinx_axivdma.ko
+kernel/drivers/dma/xilinx/xilinx_axicdma.ko

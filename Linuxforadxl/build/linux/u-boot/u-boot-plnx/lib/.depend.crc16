@@ -1,0 +1,9 @@
+/home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/u-boot-plnx/lib/crc16.o: \
+ crc16.c \
+ /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/src/u-boot-plnx/include/crc.h \
+ /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/src/u-boot-plnx/include/linux/types.h \
+ /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/src/u-boot-plnx/include/linux/posix_types.h \
+ /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/src/u-boot-plnx/include/linux/stddef.h \
+ /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/src/u-boot-plnx/arch/arm/include/asm/posix_types.h \
+ /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/u-boot/src/u-boot-plnx/arch/arm/include/asm/types.h \
+ /opt/PetaLinux/petalinux-v2014.2-final/tools/linux-i386/arm-xilinx-linux-gnueabi/lib/gcc/arm-xilinx-linux-gnueabi/4.8.1/include/stdbool.h

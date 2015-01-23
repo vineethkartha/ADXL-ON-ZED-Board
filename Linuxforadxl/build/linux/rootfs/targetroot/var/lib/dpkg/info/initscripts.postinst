@@ -1,0 +1,9 @@
+#!/bin/sh
+	if false; then
+		if [ -n "$D" ]; then
+			OPTS="--root=$D"
+		fi
+		for SERVICE in    banner   bootmisc   checkroot   devpts   hostname   mountall   mountnfs   rmnologin   sysfs   urandom; do
+			systemctl $OPTS mask $SERVICE.service
+		done
+	fi

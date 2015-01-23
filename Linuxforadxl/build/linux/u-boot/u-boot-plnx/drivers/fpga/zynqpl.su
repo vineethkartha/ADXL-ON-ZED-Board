@@ -1,0 +1,4 @@
+zynqpl.c:74:12:load_word	0	static
+zynqpl.c:43:5:zynq_info	0	static
+zynqpl.c:442:5:zynq_load	48	static
+zynqpl.c:488:5:zynq_dump	0	static

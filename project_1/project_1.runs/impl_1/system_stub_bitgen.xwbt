@@ -1,0 +1,8 @@
+INTSTYLE=pa
+INFILE=/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.runs/impl_1/system_stub_routed.ncd
+OUTFILE=/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.runs/impl_1/system_stub.bit
+FAMILY=Zynq
+PART=xc7z020-1clg484
+WORKINGDIR=/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.runs/impl_1
+LICENSE=WebPack
+USER_INFO=__0_0_0

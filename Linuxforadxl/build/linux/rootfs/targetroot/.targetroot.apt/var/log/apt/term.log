@@ -1,0 +1,458 @@
+
+Log started: 2014-11-21  20:32:19
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Selecting previously unselected package base-files.
+(Reading database ... (Reading database ... 100%(Reading database ... 0 files and directories currently installed.)
+Unpacking base-files (from .../base-files_3.0.14-r86_armv7a-vfp-neon.deb) ...
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Selecting previously unselected package base-passwd.
+Unpacking base-passwd (from .../base-passwd_3.5.29-r0_armv7a-vfp-neon.deb) ...
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Selecting previously unselected package update-alternatives-opkg.
+Unpacking update-alternatives-opkg (from .../update-alternatives-opkg_0.1.8+git0+c33b217016-r0_armv7a-vfp-neon.deb) ...
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Selecting previously unselected package libc6.
+Unpacking libc6 (from .../libc6_2.18-r1_armv7a-vfp-neon.deb) ...
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Selecting previously unselected package busybox.
+Unpacking busybox (from .../busybox_1.22.1-r0_armv7a-vfp-neon.deb) ...
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Selecting previously unselected package busybox-inetd.
+Unpacking busybox-inetd (from .../busybox-inetd_1.22.1-r0_armv7a-vfp-neon.deb) ...
+update-rc.d: error: unknown option
+usage: update-rc.d [-n] [-f] <basename> remove
+       update-rc.d [-n] <basename> defaults [NN | SS KK]
+       update-rc.d [-n] <basename> start|stop NN runlvl [runlvl] [...] .
+       update-rc.d [-n] <basename> disable|enable [S|2|3|4|5]
+		-n: not really
+		-f: force
+
+The disable|enable API is not stable and might change in the future.
+dpkg: error processing /opt/PetaLinux/petalinux-v2014.2-final/components/packages-repo/plnx-repo/pool/main/b/busybox-inetd/busybox-inetd_1.22.1-r0_armv7a-vfp-neon.deb (--unpack):
+ subprocess new pre-installation script returned error exit status 1
+update-rc.d: error: unknown option
+usage: update-rc.d [-n] [-f] <basename> remove
+       update-rc.d [-n] <basename> defaults [NN | SS KK]
+       update-rc.d [-n] <basename> start|stop NN runlvl [runlvl] [...] .
+       update-rc.d [-n] <basename> disable|enable [S|2|3|4|5]
+		-n: not really
+		-f: force
+
+The disable|enable API is not stable and might change in the future.
+dpkg: error while cleaning up:
+ subprocess new post-removal script returned error exit status 1
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Selecting previously unselected package busybox-mdev.
+Unpacking busybox-mdev (from .../busybox-mdev_1.22.1-r0_armv7a-vfp-neon.deb) ...
+update-rc.d: error: unknown option
+usage: update-rc.d [-n] [-f] <basename> remove
+       update-rc.d [-n] <basename> defaults [NN | SS KK]
+       update-rc.d [-n] <basename> start|stop NN runlvl [runlvl] [...] .
+       update-rc.d [-n] <basename> disable|enable [S|2|3|4|5]
+		-n: not really
+		-f: force
+
+The disable|enable API is not stable and might change in the future.
+dpkg: error processing /opt/PetaLinux/petalinux-v2014.2-final/components/packages-repo/plnx-repo/pool/main/b/busybox-mdev/busybox-mdev_1.22.1-r0_armv7a-vfp-neon.deb (--unpack):
+ subprocess new pre-installation script returned error exit status 1
+update-rc.d: error: unknown option
+usage: update-rc.d [-n] [-f] <basename> remove
+       update-rc.d [-n] <basename> defaults [NN | SS KK]
+       update-rc.d [-n] <basename> start|stop NN runlvl [runlvl] [...] .
+       update-rc.d [-n] <basename> disable|enable [S|2|3|4|5]
+		-n: not really
+		-f: force
+
+The disable|enable API is not stable and might change in the future.
+dpkg: error while cleaning up:
+ subprocess new post-removal script returned error exit status 1
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Selecting previously unselected package busybox-udhcpc.
+Unpacking busybox-udhcpc (from .../busybox-udhcpc_1.22.1-r0_armv7a-vfp-neon.deb) ...
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Selecting previously unselected package libgcc-s1.
+Unpacking libgcc-s1 (from .../libgcc-s1_4.8.1-r1_armv7a-vfp-neon.deb) ...
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Selecting previously unselected package gdbserver.
+Unpacking gdbserver (from .../gdbserver_7.6.50.20130726-cvs-r1_armv7a-vfp-neon.deb) ...
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Selecting previously unselected package netbase.
+Unpacking netbase (from .../netbase_1:5.2-r0_armv7a-vfp-neon.deb) ...
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Selecting previously unselected package init-ifupdown.
+Unpacking init-ifupdown (from .../init-ifupdown_1.0-r7_armv7a-vfp-neon.deb) ...
+update-rc.d: error: unknown option
+usage: update-rc.d [-n] [-f] <basename> remove
+       update-rc.d [-n] <basename> defaults [NN | SS KK]
+       update-rc.d [-n] <basename> start|stop NN runlvl [runlvl] [...] .
+       update-rc.d [-n] <basename> disable|enable [S|2|3|4|5]
+		-n: not really
+		-f: force
+
+The disable|enable API is not stable and might change in the future.
+dpkg: error processing /opt/PetaLinux/petalinux-v2014.2-final/components/packages-repo/plnx-repo/pool/main/i/init-ifupdown/init-ifupdown_1.0-r7_armv7a-vfp-neon.deb (--unpack):
+ subprocess new pre-installation script returned error exit status 1
+update-rc.d: error: unknown option
+usage: update-rc.d [-n] [-f] <basename> remove
+       update-rc.d [-n] <basename> defaults [NN | SS KK]
+       update-rc.d [-n] <basename> start|stop NN runlvl [runlvl] [...] .
+       update-rc.d [-n] <basename> disable|enable [S|2|3|4|5]
+		-n: not really
+		-f: force
+
+The disable|enable API is not stable and might change in the future.
+dpkg: error while cleaning up:
+ subprocess new post-removal script returned error exit status 1
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Selecting previously unselected package initscripts-functions.
+Unpacking initscripts-functions (from .../initscripts-functions_1.0-r154_armv7a-vfp-neon.deb) ...
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Selecting previously unselected package initscripts.
+Unpacking initscripts (from .../initscripts_1.0-r154_armv7a-vfp-neon.deb) ...
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Selecting previously unselected package modutils-initscripts.
+Unpacking modutils-initscripts (from .../modutils-initscripts_1.0-r7_armv7a-vfp-neon.deb) ...
+update-rc.d: error: unknown option
+usage: update-rc.d [-n] [-f] <basename> remove
+       update-rc.d [-n] <basename> defaults [NN | SS KK]
+       update-rc.d [-n] <basename> start|stop NN runlvl [runlvl] [...] .
+       update-rc.d [-n] <basename> disable|enable [S|2|3|4|5]
+		-n: not really
+		-f: force
+
+The disable|enable API is not stable and might change in the future.
+dpkg: error processing /opt/PetaLinux/petalinux-v2014.2-final/components/packages-repo/plnx-repo/pool/main/m/modutils-initscripts/modutils-initscripts_1.0-r7_armv7a-vfp-neon.deb (--unpack):
+ subprocess new pre-installation script returned error exit status 1
+update-rc.d: error: unknown option
+usage: update-rc.d [-n] [-f] <basename> remove
+       update-rc.d [-n] <basename> defaults [NN | SS KK]
+       update-rc.d [-n] <basename> start|stop NN runlvl [runlvl] [...] .
+       update-rc.d [-n] <basename> disable|enable [S|2|3|4|5]
+		-n: not really
+		-f: force
+
+The disable|enable API is not stable and might change in the future.
+dpkg: error while cleaning up:
+ subprocess new post-removal script returned error exit status 1
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Selecting previously unselected package mtd-utils.
+Unpacking mtd-utils (from .../mtd-utils_1.5.0+git0+dcea43eba9-r0_armv7a-vfp-neon.deb) ...
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Selecting previously unselected package sysvinit-pidof.
+Unpacking sysvinit-pidof (from .../sysvinit-pidof_2.88dsf-r11_armv7a-vfp-neon.deb) ...
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Selecting previously unselected package sysvinit-inittab.
+Unpacking sysvinit-inittab (from .../sysvinit-inittab_2.88dsf-r10_armv7a-vfp-neon.deb) ...
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Selecting previously unselected package sysvinit.
+Unpacking sysvinit (from .../sysvinit_2.88dsf-r11_armv7a-vfp-neon.deb) ...
+Selecting previously unselected package update-rc.d.
+Unpacking update-rc.d (from .../update-rc.d_0.7-r5_all.deb) ...
+Errors were encountered while processing:
+ /opt/PetaLinux/petalinux-v2014.2-final/components/packages-repo/plnx-repo/pool/main/b/busybox-inetd/busybox-inetd_1.22.1-r0_armv7a-vfp-neon.deb
+ /opt/PetaLinux/petalinux-v2014.2-final/components/packages-repo/plnx-repo/pool/main/b/busybox-mdev/busybox-mdev_1.22.1-r0_armv7a-vfp-neon.deb
+ /opt/PetaLinux/petalinux-v2014.2-final/components/packages-repo/plnx-repo/pool/main/i/init-ifupdown/init-ifupdown_1.0-r7_armv7a-vfp-neon.deb
+ /opt/PetaLinux/petalinux-v2014.2-final/components/packages-repo/plnx-repo/pool/main/m/modutils-initscripts/modutils-initscripts_1.0-r7_armv7a-vfp-neon.deb
+Log ended: 2014-11-21  20:32:29
+
+Log started: 2014-11-21  20:33:58
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+(Reading database ... (Reading database ... 20%(Reading database ... 40%(Reading database ... 60%(Reading database ... 80%(Reading database ... 100%(Reading database ... 217 files and directories currently installed.)
+Preparing to replace update-alternatives-opkg 0.1.8+git0+c33b217016-r0 (using .../update-alternatives-opkg_0.1.8+git0+c33b217016-r0_armv7a-vfp-neon.deb) ...
+Unpacking replacement update-alternatives-opkg ...
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Preparing to replace busybox-inetd 1.22.1-r0 (using .../busybox-inetd_1.22.1-r0_armv7a-vfp-neon.deb) ...
+ Removing any system startup links for inetd.busybox ...
+Unpacking replacement busybox-inetd ...
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Preparing to replace busybox-mdev 1.22.1-r0 (using .../busybox-mdev_1.22.1-r0_armv7a-vfp-neon.deb) ...
+ Removing any system startup links for mdev ...
+Unpacking replacement busybox-mdev ...
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Preparing to replace init-ifupdown 1.0-r7 (using .../init-ifupdown_1.0-r7_armv7a-vfp-neon.deb) ...
+ Removing any system startup links for networking ...
+Unpacking replacement init-ifupdown ...
+dpkg: warning: overriding problem because --force enabled:
+ package architecture (armv7a-vfp-neon) does not match system (i386)
+Preparing to replace modutils-initscripts 1.0-r7 (using .../modutils-initscripts_1.0-r7_armv7a-vfp-neon.deb) ...
+ Removing any system startup links for modutils.sh ...
+Unpacking replacement modutils-initscripts ...
+Setting up base-files (3.0.14-r86) ...
+
+Configuration file `/etc/fstab', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file `/etc/hostname', does not exist on system.
+Installing new config file as you requested.
+
+Configuration file `/etc/shells', does not exist on system.
+Installing new config file as you requested.
+Setting up base-passwd (3.5.29-r0) ...
+Setting up update-alternatives-opkg (0.1.8+git0+c33b217016-r0) ...
+Setting up libc6 (2.18-r1) ...
+Setting up busybox (1.22.1-r0) ...
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/ar to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/gunzip to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/zcat to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/cpio to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/gzip to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/tar to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/unzip to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/date to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/groups to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/id to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/touch to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/users to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/who to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/awk to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/cmp to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/diff to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/patch to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/sed to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/vi to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/find to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/grep to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/egrep to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/fgrep to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/xargs to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/halt to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/poweroff to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/reboot to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/depmod to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/insmod to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/lsmod to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/modprobe to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/rmmod to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/ash to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/sh to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/fstrim to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/mdev to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/[ to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/[[ to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/addgroup to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/adduser to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/basename to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/cat to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/chattr to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/chgrp to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/chmod to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/chown to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/chroot to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/chvt to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/clear to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/cp to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/cut to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/dc to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/dd to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/deallocvt to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/delgroup to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/deluser to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/devmem to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/df to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/dirname to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/dmesg to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/dnsdomainname to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/du to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/dumpkmap to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/dumpleases to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/echo to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/env to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/expr to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/false to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/fbset to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/fdisk to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/flock to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/free to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/fsck to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/ftpd to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/ftpget to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/ftpput to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/fuser to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/getopt to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/getty to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/hd to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/head to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/hexdump to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/hostname to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/httpd to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/hwclock to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/ifconfig to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/ifdown to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/ifup to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/inetd to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/ip to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/kill to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/killall to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/klogd to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/less to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/ln to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/loadfont to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/loadkmap to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/logger to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/logname to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/logread to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/losetup to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/ls to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/md5sum to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/microcom to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/mkdir to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/mkdosfs to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/mkfifo to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/mkfs.vfat to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/mknod to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/mkswap to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/mktemp to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/more to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/mount to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/mv to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/netstat to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/nice to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/nohup to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/nslookup to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/od to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/openvt to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/pidof to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/pivot_root to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/printf to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/ps to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/pwd to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/rdate to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/readlink to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/realpath to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/renice to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/reset to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/rm to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/rmdir to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/route to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/run-parts to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/seq to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/setconsole to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/sha1sum to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/sha3sum to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/sha256sum to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/sha512sum to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/sleep to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/sort to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/start-stop-daemon to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/stat to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/strings to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/stty to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/sulogin to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/swapoff to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/swapon to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/switch_root to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/sync to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/sysctl to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/syslogd to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/tail to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/tee to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/telnet to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/telnetd to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/test to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/tftp to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/time to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/top to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/tr to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/true to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/tty to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/udhcpc to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/udhcpd to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/umount to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/uname to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/uniq to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/uptime to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/usleep to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/watch to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/watchdog to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/wc to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/wget to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/which to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/whoami to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/yes to /bin/busybox.nosuid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/ping to /bin/busybox.suid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/ping6 to /bin/busybox.suid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/login to /bin/busybox.suid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/passwd to /bin/busybox.suid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/su to /bin/busybox.suid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/traceroute to /bin/busybox.suid
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/vlock to /bin/busybox.suid
+Setting up busybox-inetd (1.22.1-r0) ...
+
+Configuration file `/etc/inetd.conf', does not exist on system.
+Installing new config file as you requested.
+ Adding system startup for /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot/etc/init.d/inetd.busybox.
+Setting up busybox-mdev (1.22.1-r0) ...
+
+Configuration file `/etc/mdev.conf', does not exist on system.
+Installing new config file as you requested.
+ Adding system startup for /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot/etc/init.d/mdev.
+Setting up busybox-udhcpc (1.22.1-r0) ...
+Setting up libgcc-s1 (4.8.1-r1) ...
+Setting up gdbserver (7.6.50.20130726-cvs-r1) ...
+Setting up netbase (1:5.2-r0) ...
+
+Configuration file `/etc/hosts', does not exist on system.
+Installing new config file as you requested.
+Setting up init-ifupdown (1.0-r7) ...
+
+Configuration file `/etc/network/interfaces', does not exist on system.
+Installing new config file as you requested.
+ Adding system startup for /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot/etc/init.d/networking.
+Setting up initscripts-functions (1.0-r154) ...
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//etc/init.d/functions to /etc/init.d/functions.initscripts
+Setting up initscripts (1.0-r154) ...
+Setting up modutils-initscripts (1.0-r7) ...
+ Adding system startup for /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot/etc/init.d/modutils.sh.
+Setting up mtd-utils (1.5.0+git0+dcea43eba9-r0) ...
+Setting up sysvinit-pidof (2.88dsf-r11) ...
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/pidof to /bin/pidof.sysvinit
+Setting up sysvinit-inittab (2.88dsf-r10) ...
+
+Configuration file `/etc/inittab', does not exist on system.
+Installing new config file as you requested.
+Setting up sysvinit (2.88dsf-r11) ...
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/init to /sbin/init.sysvinit
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//bin/mountpoint to /bin/mountpoint.sysvinit
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/halt to /sbin/halt.sysvinit
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/reboot to /sbin/reboot.sysvinit
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/runlevel to /sbin/runlevel.sysvinit
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/shutdown to /sbin/shutdown.sysvinit
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//sbin/poweroff to /sbin/poweroff.sysvinit
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//usr/bin/last to /usr/bin/last.sysvinit
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//usr/bin/mesg to /usr/bin/mesg.sysvinit
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//usr/bin/utmpdump to /usr/bin/utmpdump.sysvinit
+update-alternatives: Linking /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot//usr/bin/wall to /usr/bin/wall.sysvinit
+Setting up update-rc.d (0.7-r5) ...
+Log ended: 2014-11-21  20:34:16
+
+Log started: 2014-11-21  20:34:17
+Selecting previously unselected package run-postinsts.
+(Reading database ... (Reading database ... 15%(Reading database ... 30%(Reading database ... 50%(Reading database ... 65%(Reading database ... 80%(Reading database ... 100%(Reading database ... 230 files and directories currently installed.)
+Unpacking run-postinsts (from .../run-postinsts_1.0-r9_all.deb) ...
+ Removing any system startup links for run-postinsts ...
+Setting up run-postinsts (1.0-r9) ...
+ Adding system startup for /home/kartha/Avnet-Digilent-ZedBoard-2014.2/build/linux/rootfs/packages-repo/targetroot/etc/init.d/run-postinsts.
+Log ended: 2014-11-21  20:34:19

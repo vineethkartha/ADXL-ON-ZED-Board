@@ -1,0 +1,140 @@
+
+*** Running xst
+    with args -ifn system_stub.xst -ofn system_stub.srp -intstyle ise
+
+Reading design: system_stub.prj
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/hdl/system.v" into library work
+Parsing module <system>.
+Parsing module <system_processing_system7_0_wrapper>.
+Parsing module <system_adxl_0_wrapper>.
+Parsing module <system_axi_interconnect_1_wrapper>.
+Analyzing Verilog file "/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/system_stub.v" into library work
+Parsing module <system_stub>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <system_stub>.
+
+Elaborating module <system>.
+WARNING:HDLCompiler:1499 - "/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/hdl/system.v" Line 5: Empty module <system> remains a black box.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <system_stub>.
+    Related source file is "/media/D/BITS_Study/Semester_3/HW-SW_codesign/Project/ADXL/project_1/project_1.srcs/sources_1/edk/system/system_stub.v".
+    Set property "BOX_TYPE = user_black_box" for instance <system_i>.
+    Summary:
+	no macro.
+Unit <system_stub> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <../../project_1.srcs/sources_1/edk/system/implementation/system.ngc>.
+Reading core <../../project_1.srcs/sources_1/edk/system/implementation/system_processing_system7_0_wrapper.ngc>.
+Reading core <../../project_1.srcs/sources_1/edk/system/implementation/system_adxl_0_wrapper.ngc>.
+Reading core <../../project_1.srcs/sources_1/edk/system/implementation/system_axi_interconnect_1_wrapper.ngc>.
+Loading core <system_processing_system7_0_wrapper> for timing and area information for instance <processing_system7_0>.
+Loading core <system_adxl_0_wrapper> for timing and area information for instance <adxl_0>.
+Loading core <system_axi_interconnect_1_wrapper> for timing and area information for instance <axi_interconnect_1>.
+Loading core <system> for timing and area information for instance <system_i>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+WARNING:Xst:528 - Multi-source in Unit <processing_system7_0> on signal <PS_SRSTB>; this signal is connected to multiple drivers.
+Drivers are: 
+   Primary input port <processing_system7_0_PS_SRSTB>
+   Output port PS7:PSSRSTB of instance <system_i/processing_system7_0/processing_system7_0/PS7_i>
+
+WARNING:Xst:528 - Multi-source in Unit <processing_system7_0> on signal <PS_CLK>; this signal is connected to multiple drivers.
+Drivers are: 
+   Primary input port <processing_system7_0_PS_CLK>
+   Output port PS7:PSCLK of instance <system_i/processing_system7_0/processing_system7_0/PS7_i>
+
+WARNING:Xst:528 - Multi-source in Unit <processing_system7_0> on signal <PS_PORB>; this signal is connected to multiple drivers.
+Drivers are: 
+   Primary input port <processing_system7_0_PS_PORB>
+   Output port PS7:PSPORB of instance <system_i/processing_system7_0/processing_system7_0/PS7_i>
+
+Optimizing unit <system_stub> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block system_stub, actual ratio is 0.
+INFO:Xst:2260 - The FF/Latch <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_enc_0> in Unit <axi_interconnect_1> is equivalent to the following FF/Latch : <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_enc_0_1> 
+INFO:Xst:2260 - The FF/Latch <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw> in Unit <axi_interconnect_1> is equivalent to the following 2 FFs/Latches : <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw_1> <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw_2> 
+INFO:Xst:2260 - The FF/Latch <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_enc_0> in Unit <axi_interconnect_1> is equivalent to the following FF/Latch : <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_enc_0_1> 
+INFO:Xst:2260 - The FF/Latch <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw> in Unit <axi_interconnect_1> is equivalent to the following 2 FFs/Latches : <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw_1> <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw_2> 
+INFO:Xst:2260 - The FF/Latch <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_enc_0> in Unit <axi_interconnect_1> is equivalent to the following FF/Latch : <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_enc_0_1> 
+INFO:Xst:2260 - The FF/Latch <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw> in Unit <axi_interconnect_1> is equivalent to the following 2 FFs/Latches : <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw_1> <axi_interconnect_1/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw_2> 
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Clock Information:
+------------------
+-------------------------------------------------------------------------+------------------------+-------+
+Clock Signal                                                             | Clock buffer(FF name)  | Load  |
+-------------------------------------------------------------------------+------------------------+-------+
+system_i/processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0>| BUFG                   | 240   |
+system_i/adxl_0/adxl_0/USER_LOGIC_I/clk_out                              | BUFG                   | 30    |
+adxl_0_clk_pin                                                           | BUFGP                  | 7     |
+-------------------------------------------------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 4.356ns (Maximum Frequency: 229.563MHz)
+   Minimum input arrival time before clock: 2.086ns
+   Maximum output required time after clock: 2.864ns
+   Maximum combinational path delay: 0.000ns
+
+=========================================================================

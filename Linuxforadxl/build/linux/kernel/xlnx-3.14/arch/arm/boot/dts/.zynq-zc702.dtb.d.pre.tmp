@@ -1,0 +1,2 @@
+zynq-zc702.o: \
+ /opt/PetaLinux/petalinux-v2014.2-final/components/linux-kernel/xlnx-3.14/arch/arm/boot/dts/zynq-zc702.dts

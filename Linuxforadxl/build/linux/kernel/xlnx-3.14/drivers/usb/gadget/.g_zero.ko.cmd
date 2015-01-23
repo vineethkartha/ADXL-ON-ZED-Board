@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/g_zero.ko := arm-xilinx-linux-gnueabi-ld -EL -r  -T /opt/PetaLinux/petalinux-v2014.2-final/components/linux-kernel/xlnx-3.14/scripts/module-common.lds --build-id  -o drivers/usb/gadget/g_zero.ko drivers/usb/gadget/g_zero.o drivers/usb/gadget/g_zero.mod.o
