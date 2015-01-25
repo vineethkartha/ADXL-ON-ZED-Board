@@ -13,4 +13,4 @@ The features of this project are:
 
 ### Who do I talk to? ###
 
-*[Vineeth Kartha](vineeth.kartha@gmail.com)
+* Vineeth Kartha vineeth.kartha@gmail.com
